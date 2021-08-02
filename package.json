@@ -2,6 +2,7 @@
   "name": "readonlymap",
   "version": "0.0.0",
   "description": "Readonly wrapper of Javascript `Map` class",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

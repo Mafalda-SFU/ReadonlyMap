@@ -1,0 +1,27 @@
+{
+  "name": "readonlymap",
+  "version": "0.0.0",
+  "description": "Readonly wrapper of Javascript `Map` class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mafalda-SFU/ReadonlyMap.git"
+  },
+  "keywords": [
+    "Mafalda",
+    "readonly",
+    "read-only",
+    "read",
+    "only",
+    "Map"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mafalda-SFU/ReadonlyMap/issues"
+  },
+  "homepage": "https://github.com/Mafalda-SFU/ReadonlyMap#readme"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "readonlymap",
+  "name": "@mafalda/readonlymap",
   "version": "0.0.0",
   "description": "Readonly wrapper of Javascript `Map` class",
   "type": "module",

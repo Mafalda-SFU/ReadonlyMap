@@ -2,11 +2,15 @@ const blackList = ['clear', 'delete', 'set']
 
 const handler =
 {
-  get(target, propertyKey, receiver) {
+  get(target, propertyKey) {
     if(blackList.includes(propertyKey))
       throw new SyntaxError(`${propertyKey} not allowed`)
 
-    return Reflect.get(target, propertyKey, receiver)
+    let result = Reflect.get(target, propertyKey)
+
+    if(result instanceof Function) result = result.bind(target)
+
+    return result
   }
 }
 

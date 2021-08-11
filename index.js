@@ -15,7 +15,7 @@ const handler =
 }
 
 
-export default function ReadonlyMap(target)
+module.exports = function ReadonlyMap(target)
 {
   return new Proxy(target, handler)
 }

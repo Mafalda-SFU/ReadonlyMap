@@ -2,7 +2,8 @@ const blackList = ['clear', 'delete', 'set']
 
 const handler =
 {
-  get(target, propertyKey) {
+  get(target, propertyKey)
+  {
     if(blackList.includes(propertyKey))
       throw new SyntaxError(`${propertyKey} not allowed`)
 

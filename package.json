@@ -1,5 +1,5 @@
 {
-  "name": "@mafalda/readonlymap",
+  "name": "@mafalda-sfu/readonlymap",
   "version": "0.1.0",
   "description": "Readonly wrapper of Javascript `Map` class",
   "scripts": {
@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/Mafalda-SFU/ReadonlyMap#readme",
   "devDependencies": {
-    "@mafalda/eslint-config": "^0.0.1",
-    "c8": "^7.12.0",
+    "@mafalda-sfu/eslint-config": "^0.1.1",
+    "c8": "^7.13.0",
     "chai": "^4.3.7",
-    "eslint": "^8.32.0",
+    "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "jsdoc-to-markdown": "^8.0.0",
     "mocha": "^10.2.0",

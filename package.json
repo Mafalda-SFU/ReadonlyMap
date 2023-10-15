@@ -1,6 +1,6 @@
 {
   "name": "@mafalda-sfu/readonlymap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Readonly wrapper of Javascript `Map` class",
   "scripts": {
     "docs": "cp README.md docs/ && jsdoc2md *.js > docs/API.md",

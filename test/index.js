@@ -1,29 +1,30 @@
-const {expect, use} = require('chai');
-const {test} = require('mocha');
-const {jestSnapshotPlugin} = require('mocha-chai-jest-snapshot');
+const {expect, use} = require('chai')
+const {test} = require('mocha')
+const {jestSnapshotPlugin} = require('mocha-chai-jest-snapshot')
 
-const ReadonlyMap = require('../index.js');
+const ReadonlyMap = require('../index.js')
 
 
-use(jestSnapshotPlugin());
+use(jestSnapshotPlugin())
 
 
 test('layout', function()
 {
-  expect(ReadonlyMap).toMatchSnapshot();
+  expect(ReadonlyMap).toMatchSnapshot()
 })
 
 test('no arguments', function()
 {
   function func()
   {
+    // eslint-disable-next-line no-new
     new ReadonlyMap
   }
 
-  expect(func).to.throw();
+  expect(func).to.throw()
 })
 
 test('argument', function()
 {
-  expect(new ReadonlyMap(new Map)).toMatchSnapshot();
+  expect(new ReadonlyMap(new Map)).toMatchSnapshot()
 })

@@ -6,7 +6,7 @@
     "docs": "cp README.md docs/ && jsdoc2md *.js > docs/API.md",
     "lint": "eslint .",
     "predocs": "mkdir -p docs/",
-    "prepare": "husky install",
+    "prepare": "husky",
     "pretest": "npm run lint",
     "pretest:json": "npm run lint",
     "test": "c8 --all --src lib mocha",
@@ -35,7 +35,7 @@
     "c8": "^8.0.1",
     "chai": "^4.3.10",
     "eslint": "^8.51.0",
-    "husky": "^8.0.3",
+    "husky": "^9.1.7",
     "jsdoc-to-markdown": "^8.0.0",
     "mocha": "^10.2.0",
     "mocha-chai-jest-snapshot": "^1.1.4"
